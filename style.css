@@ -9,7 +9,7 @@
 
 .project1{
    height: 200px;
-   width: 400px;
+   width: 350px;
 }
 
 .project2{
@@ -18,7 +18,7 @@
 }   
 
 .project3{
-    height: 400px;
+    height: 350px;
     width: 250px;
    
 }
@@ -28,7 +28,7 @@ h3{
 }
 
 .project{
-    width:450px;
+    width:375px;
     height:25px;
     border: 20px solid black;
     padding: 10px;
@@ -37,7 +37,7 @@ h3{
 }
 
 .description{
-    width:450px;
+    width:375px;
     height:500px;
     border: 20px solid black;
     padding: 10px;
