@@ -1,0 +1,54 @@
+
+.container{ 
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+   width:fit-content;
+   height: fit-content;
+}
+
+.project1{
+   height: 200px;
+   width: 400px;
+}
+
+.project2{
+    height:150px;
+    width: 300px;
+}   
+
+.project3{
+    height: 400px;
+    width: 250px;
+   
+}
+
+h3{
+    font-size:25px;
+}
+
+.project{
+    width:450px;
+    height:25px;
+    border: 20px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color:blueviolet;
+}
+
+.description{
+    width:450px;
+    height:500px;
+    border: 20px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    width:1050px;
+    height:50px;
+    border: 20px solid black;
+    background-color:blueviolet;
+    margin-left: 50px;
+
+}
