@@ -30,25 +30,48 @@ h3{
 .project{
     width:375px;
     height:25px;
-    border: 20px solid black;
+    border: 2px solid pink;
     padding: 10px;
     margin: 10px;
-    background-color:blueviolet;
+    text-align:center;
 }
 
 .description{
     width:375px;
     height:500px;
-    border: 20px solid black;
+    border: 1px solid pink;
     padding: 10px;
     margin: 10px;
 }
 
 h1{
-    width:1050px;
-    height:50px;
-    border: 20px solid black;
-    background-color:blueviolet;
-    margin-left: 50px;
+    height: fit-content;
+    border: 2px solid pink;
+    width:fit-content;
+    margin-left:50px;    
+    align-items:center;
+}
 
+h2{  height:30px;
+    width:fit-content;
+    border: 2px solid pink;
+    margin-left:50px;    
+    text-align: center;
+    align-items:center;}
+.navbar{
+    width:fit-content;
+    height:fit-content;
+    border: 1px solid pink;
+    align-items:center;
+    font-size: 10px;
+    margin-left:50px;
+}
+
+body{
+    font-family:Helvetica;
+    list-style-type: circle;
+}
+
+.list{
+    margin-left: 50px;
 }
