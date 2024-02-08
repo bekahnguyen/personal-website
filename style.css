@@ -52,6 +52,9 @@ h1{
     align-items:center;
 }
 
+h4{
+    margin-left: 50px;
+}
 h2{  height:30px;
     width:fit-content;
     border: 2px solid pink;
@@ -67,6 +70,20 @@ h2{  height:30px;
     margin-left:50px;
 }
 
+p{
+    font-size: 20px;
+}
+.image{
+    height:400px;
+    width:550px;
+    border: 10px solid pink;
+}
+
+.imageToo{
+    hieght: 300px;
+    width: 300px;
+    border: 10px solid green;
+}
 body{
     font-family:Helvetica;
     list-style-type: circle;
