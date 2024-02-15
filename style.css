@@ -5,6 +5,7 @@
     justify-content: flex-start;
    width:fit-content;
    height: fit-content;
+   flex-wrap: wrap;
 }
 
 .project1{
@@ -19,8 +20,7 @@
 
 .project3{
     height: 350px;
-    width: 250px;
-   
+    width: 250px;   
 }
 
 h3{
@@ -31,64 +31,89 @@ h3{
     width:375px;
     height:25px;
     border: 2px solid pink;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
     text-align:center;
+
 }
 
 .description{
     width:375px;
     height:500px;
     border: 1px solid pink;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+
+    @media screen and (max-width:600px){
+        border: 5px dashed black;
+        padding: 20px;
+        background-color: pink;
+    }    
 }
 
 h1{
     height: fit-content;
     border: 2px solid pink;
-    width:fit-content;
-    margin-left:50px;    
+    width:fit-content;  
     align-items:center;
+
+    @media screen and (max-width:600px){
+        background-color:pink;
+        border: 2px dashed black;
+    }
 }
 
-h4{
-    margin-left: 50px;
-}
-h2{  height:30px;
+
+h2{  
+    height:fit-content;
     width:fit-content;
     border: 2px solid pink;
-    margin-left:50px;    
     text-align: center;
-    align-items:center;}
+    align-items:center;
+    
+    @media screen and (max-width:600px) {
+        background-color:pink;
+        
+    }
+}
 .navbar{
     width:fit-content;
-    height:fit-content;
+     height:fit-content;
     border: 1px solid pink;
     align-items:center;
     font-size: 10px;
-    margin-left:50px;
+    
+
+    @media screen and (max-width:600px) {
+        font-size:15px;
+        background-color:pink;
+           }
 }
 
 p{
-    font-size: 20px;
+    font-size: 15px;
 }
+
 .image{
-    height:400px;
-    width:550px;
+    height:30vh;
+    width:50vh;
     border: 10px solid pink;
 }
 
 .imageToo{
-    hieght: 300px;
-    width: 300px;
-    border: 10px solid green;
+    height:20vh;
+    width:20vh;
+    border: 10px solid pink;
 }
+
 body{
     font-family:Helvetica;
     list-style-type: circle;
 }
 
-.list{
-    margin-left: 50px;
+
+
+.contactMe{
+    text-align:left;
+    border:10px solid pink;
+    height:fit-content;
+    width: fit-content;
 }
