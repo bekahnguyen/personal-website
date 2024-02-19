@@ -1,11 +1,6 @@
 body{
     font-family:Helvetica;
     list-style-type: circle;
-
-    @media screen  and (max-width:600px) {
-        background-color: pink;
-        color: white;
-    }
 }
 
 .container{ 
@@ -120,8 +115,6 @@ p{
     width:20vh;
     border: 10px solid pink;
 }
-
-
 
 
 .contactMe{
