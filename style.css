@@ -31,8 +31,8 @@ h3{
     font-size:25px;
 }
 
-h3:hover, h1:hover, h2:hover, .project:hover, li:hover, .description:hover{
-    font-size:30px;
+h3:hover, h1:hover, h2:hover, .project:hover, .description:hover {
+    font-size:15px;
     background-color:palevioletred;
 }
 
