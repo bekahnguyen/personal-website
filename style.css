@@ -1,3 +1,12 @@
+body{
+    font-family:Helvetica;
+    list-style-type: circle;
+
+    @media screen  and (max-width:600px) {
+        background-color: pink;
+        color: white;
+    }
+}
 
 .container{ 
     display:flex;
@@ -27,7 +36,7 @@ h3{
     font-size:25px;
 }
 
-h3:hover, h1:hover, h2:hover, .project:hover, .description:hover{
+h3:hover, h1:hover, h2:hover, .project:hover, li:hover, .description:hover{
     font-size:30px;
     background-color:palevioletred;
 }
@@ -51,6 +60,7 @@ h3:hover, h1:hover, h2:hover, .project:hover, .description:hover{
         border: 5px dashed black;
         padding: 20px;
         background-color: pink;
+        font-size:10px;
     }    
 }
 
@@ -63,6 +73,7 @@ h1{
     @media screen and (max-width:600px){
         background-color:pink;
         border: 2px dashed black;
+        font-size:20px;
     }
 }
 
@@ -76,6 +87,7 @@ h2{
     
     @media screen and (max-width:600px) {
         background-color:pink;
+        font-size:10px;
         
     }
 }
@@ -109,10 +121,6 @@ p{
     border: 10px solid pink;
 }
 
-body{
-    font-family:Helvetica;
-    list-style-type: circle;
-}
 
 
 
@@ -123,3 +131,7 @@ body{
     width: fit-content;
 }
 
+.list{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
